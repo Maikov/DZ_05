@@ -1,0 +1,261 @@
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("../fonts/HelveticaNeueCyr-Medium.otf");
+}
+
+body {
+  font-family: "Helvetica Neue";
+}
+
+.content {
+  margin: 0 auto;
+  position: relative;
+  width: 1215px;
+  height: 1064px;
+}
+
+.nav {
+  margin: 0 auto;
+  padding: 0 auto;
+  position: relative;
+  background-image: url("../img/bgmenu.jpg");
+  background-repeat: no-repeat;
+  display: block;
+  width: 1215px;
+  height: 36px;
+  font-size: 14px;
+}
+
+.menu {
+  margin: 0 auto;
+  padding: 0 auto;
+  padding-left: 458px;
+  position: relative;
+  display: block;
+  float: left;
+  width: 380px;
+  height: 32px;
+  border-right: 1px solid #56a2dc;
+  font-size: 14px;
+}
+
+.menu li {
+  float: left;
+  position: relative;
+  line-height: 36px; 
+  list-style-type: none;
+}
+
+.menu li a {
+  display: block;
+  padding: 0px;
+  text-decoration: none;
+  color: #60b5ed;
+  padding: 0px 10px 0px 12px;
+}
+
+.menu .active:hover {
+  margin: 0;
+  background-color: #4eabda;
+}
+
+.menu .active a:hover {
+  margin: 0;
+  color: #ffffff;
+}
+
+.menu2 { 
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+  position: relative;
+  display: block;
+  float: left;
+  width: auto;
+  height: auto; 
+}
+
+.menu2 li {
+  float: left;
+  position: relative;
+  display: block;
+  line-height: 36px; 
+  list-style-type: none;
+  color: #ffffff;
+  padding: 0px 10px 0px 12px;
+  margin-left: 1px;
+  margin-right: 1px;
+}
+
+.menu2 li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.menu2 li:hover {
+  margin: 0;
+  background: linear-gradient(to top, #2e7ac4, #51b1dc);
+  border-bottom: 1px solid #489bd5;
+  border-left: 1px solid #489bd5;
+  border-right: 1px solid #489bd5;
+}
+
+.menu2 a:hover {
+  margin: 0;
+  text-decoration: underline;
+}
+
+.container {
+  margin: 0 auto;
+  position: relative;
+  background-image: url("../img/background.jpg");
+  background-repeat: no-repeat;
+  width: 1215px;
+  height: 1028px;
+  font-size: 14px;
+}
+
+.flag {
+  float: left;
+  position: relative;
+  margin-top: 2px;
+  padding: 4px 12px 4px 18px; 
+}
+
+form {
+  position: absolute;
+  display: block;
+  width: 560px;
+  height: 613px;
+  left:50%;
+  top:50%;
+  margin: -307px 0 0 -280px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.header {
+  position: relative;
+  margin: 0px;
+  border-bottom: 2px solid #a9b6a2;
+  padding-top: 22px;
+  padding-bottom: 22px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 24px;
+}
+
+.fb {
+  margin: 0;
+  padding-top: 37px;
+  padding-left: 142px;
+  position: relative;
+  background-repeat: no-repeat;
+  display: block;
+  width: 278px;
+  height: 37px;
+}
+
+.line {
+  position: relative;
+  float: left;
+  margin-top: 37px;
+  margin-left: 142px;
+  height: auto;
+  width: 123px;
+  border-bottom: 1px solid #000000;
+  border-top: 1px solid #666666;
+}
+
+.ou {
+  position: relative;
+  float: left;
+  margin: 30px 0 30px 6px;
+  height: auto;
+  width: 20px;
+  color: #999999;
+}
+
+.line2 {
+  position: relative;
+  float: right;
+  margin: 0;
+  margin-top: 37px;
+  margin-right: 142px;
+  height: auto;
+  width: 123px;
+  border-bottom: 1px solid #000000;
+  border-top: 1px solid #666666;
+}
+
+.shadow {
+	width: 257px;
+	height: 35px;
+	padding: 0px 0px 0px 19px;
+	margin-bottom: 15px;
+	margin-left: 142px;
+	border: none;
+	border-bottom: 1px solid #494949;
+	background: #000000;
+	color: #cccccc;
+}
+
+.shadow:focus {
+	color: #ffffff;
+	border: 0px;
+	background: #1b5288;
+  box-shadow: 0 0 20px rgba(73, 134, 200, 1);
+}
+
+.checking {
+  margin-left: 142px;
+  height: 16px;
+}
+
+.check {
+  position: relative;
+  margin-top: 1px;
+  width: 14px;
+  height: 14px;
+}
+
+span {
+  position: absolute;
+  color: #2e76bc;
+  margin: 0 auto;
+  padding-left: 8px;
+}
+
+.btn {
+  position: absolute;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  width: 152px;
+  height: auto;
+  background: linear-gradient(to top, #2e7ac4, #4faddb);
+  border: 1px solid #3686ca;
+  box-shadow: 0px 0px 5px rgba(73, 97, 190, 1);
+  border-radius: 3px;
+  color: #ffffff;
+  text-align: center;
+  display: inline-block;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-left: 205px;
+ }
+
+.btn:focus, .btn:hover {
+    cursor: pointer; 
+}
+
+footer {
+  margin: 0;
+  margin-left: 123px;
+  margin-top: 78px;
+  position: absolute;
+  width: 310px;
+  height: 30px;
+  text-align: center;
+  display: block;
+  color: #ffffff;
+  font-size: 10px;
+}
