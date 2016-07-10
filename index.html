@@ -9,8 +9,6 @@
 
 <body>
 
-<div class="content">
-
 	<div class="nav">
 		<ul class="menu">
 			<li class="active"><a href=#>Meu YouBike</a></li>
@@ -23,14 +21,14 @@
 	    <img src="img/flag.png" alt="flag">
 	    </div>
 		<ul class="menu2">
-			<li>Minhas Ofertas</li>
+			<li><a href=#>Minhas Ofertas</a></li>
 	        <li>Ola! <a href="#">Entrar</a> ou <a href="#">Cadastre-se</a></li>
 		</ul> 
 	</div>
 
 	<div class="container">
 
-		<form action="/">
+		<form action="/" method="POST">
 
 			<div class="header">
 			Cadastre-se
@@ -56,22 +54,19 @@
 			<input class="shadow" type="password" name="password" id="password" placeholder="Choose Password"> 
 			<input class="shadow" type="password" name="password" id="password" placeholder="Password Confirm"> 
 
-			<div class="checking">
-			<input class="check" type="checkbox" name="updates">
-			<span>Send me Youbike updates and tips</span>
-			</div>
-
-			<div class="btn">
-			Create my Account
-			</div>
-
+			<label class="check">
+					<input type="checkbox" name="send_me" id="send_me">
+					Send me Youbike updates and tips
+			</label>
+			
+            <input type="submit" class="btn" value="Create My Account">
+			
 			<footer>
 			By clicking the button above, you agree to the Terms of Service Xiew our Privacy Policy.
 			</footer>
 
 		</form>
 	</div>
-</div>
 
 </body>
 </html>
